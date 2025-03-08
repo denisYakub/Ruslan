@@ -1,9 +1,11 @@
 import "./Bottom.css"
 
 export default function Bottom(){
+    const redirectToForm = () => {
+        window.location.href='';
+    }
     return (<div className="Bottom">
-        <button>Играть</button>
-        <span>ССЫЛКА НА ФОРУМ РЕГИСТРАЦИИ</span>
+        <button onClick={redirectToForm}>Играть</button>
         <div className="Bottom-Info">
             <img src="" alt="Фото планеты"/>
             <span>©2024-2025 5ive, Contact us</span>

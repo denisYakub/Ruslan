@@ -4,6 +4,7 @@
     align-items: center;
     gap: 10px;
     color: white;
+    padding: 30px;
 }
 
 .Left-Card-Person,
@@ -15,15 +16,18 @@
 
 .Left-Card-Person img,
 .Right-Card-Person img {
-    width: 200px;
-    height: 250px;
+    max-width: 200px;
+    max-height: 250px;
+    min-width: 200px;
+    min-height: 250px;
     background: center/cover no-repeat #3f3f5f;
     border-radius: 10px 10px 10px 10px;
     clip-path:  polygon(0% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%);
 }
 
 .Left-Card-Person-Info{
-    max-width: 500px;
+    max-width: fit-content;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;

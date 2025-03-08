@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 30px;
     color: white;
 }
 
@@ -40,8 +39,4 @@
     border-radius: 20px;
     cursor: pointer;
     transition: 0.3s;
-}
-
-.Login-Button button:hover {
-    background: linear-gradient(to bottom, #8b5edc, #5a3097);
 }

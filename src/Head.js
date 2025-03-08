@@ -5,13 +5,13 @@ export default function Head() {
         window.location.reload();
     }
     const redirectToKate = () => {
-        window.location.href='https://vk.com/r8_r7';
+        window.location.href='https://vk.com/katedvinova';
     }
     const redirectToGroup = () => {
-        window.location.href='https://vk.com/r8_r7';
+        window.location.href='https://vk.com/fmopifam';
     }
     const redirectToPost = () => {
-        window.location.href='https://vk.com/r8_r7';
+        window.location.href='';
     }
 
     return (
