@@ -1,25 +1,29 @@
 import "./Head.css"
 
 export default function Head() {
+    const redirectToSelf = () => {
+        window.location.reload();
+    }
+    const redirectToKate = () => {
+        window.location.href='https://vk.com/r8_r7';
+    }
+    const redirectToGroup = () => {
+        window.location.href='https://vk.com/r8_r7';
+    }
+    const redirectToPost = () => {
+        window.location.href='https://vk.com/r8_r7';
+    }
+
     return (
         <div className="Head">
             <div className="Links-Buttons">
-                <div className="Link-Button">
-                    <button>Главная</button>
-                    <span>ТЕКУЩАЯ СТРАНИЦА</span>
-                </div>
-                <div className="Link-Button">
-                    <button>Помощь</button>
-                    <span>ССЫЛКА КАТЮШКУ</span>
-                </div>
-                <div className="Link-Button">
-                    <button>ВКонтакте</button>
-                    <span>ССЫЛКА НА ГРУППУ</span>
-                </div>
+                <button onClick={redirectToSelf}>Главная</button>
+                <button onClick={redirectToKate}>Помощь</button>
+                <button onClick={redirectToGroup}>ВКонтакте</button>
             </div>
-            <div className="Login-Button">
-                <button>Log in</button>
-                <span>ССЫЛКА НА ПОСТ</span>
+            <div className="Login-Button" onClick={redirectToPost}>
+                <img src="" alt="Фото перейти"/>
+                <span>Log in</span>
             </div>
         </div>
     );
