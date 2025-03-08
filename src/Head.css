@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     color: white;
+    box-sizing: border-box;
 }
 
 .Links-Buttons {
@@ -11,7 +12,7 @@
 }
 
 .Links-Buttons button {
-    padding: 8px 15px;
+    padding: 8px 10px;
     border: none;
     background: linear-gradient(to bottom, #a56fff, #6d43b3);
     color: white;
@@ -31,7 +32,7 @@
 }
 
 .Login-Button {
-    padding: 8px 15px;
+    padding: 8px 10px;
     border: none;
     background: linear-gradient(to bottom, #007bff, #0056b3);
     color: white;
