@@ -36,7 +36,7 @@
 
 .Preview-Info-Blocks {
     position: relative;
-    margin-top: -40px;
+    margin-top: -20px;
     z-index: 1;
     display: grid;
     grid-template-columns: 1fr 1fr; /* Два столбца */
@@ -89,6 +89,7 @@
     border-top-right-radius: 15px;
     width: 100%;
     margin: 0;
+    text-align: center;
     background: linear-gradient(to bottom, #007bff, #74b9ff);
 }
 
@@ -97,6 +98,7 @@
     border-top-right-radius: 15px;
     width: 100%;
     margin: 0;
+    text-align: center;
     background: linear-gradient(to bottom, #8e44ad, #d980fa);
 }
 

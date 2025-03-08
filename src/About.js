@@ -15,7 +15,7 @@ export default function About(){
             <div className="Preview-Info-Block-Blue">
                 <img src="/diamond.png.png" alt="Фото алмаза"/>
                 <h1>Тех.поддежка и функционал</h1>
-                <span>Мы всегда готовы ответить на все ваши вопросы и помочь с решением возникших проблем. По всем вопросам можете смело обращаться к Кате и Андрею!</span>
+                <span>Мы всегда готовы ответить на все ваши вопросы и помочь с решением возникших проблем. По всем вопросам можете смело обращаться к <a href="https://vk.com/katedvinova">Кате</a> и <a href="https://vk.com/hazardousidol">Андрею</a>!</span>
             </div>
             <div className="Preview-Info-Block-Violet">
                 <img src="/diamond.png.png" alt="Фото алмаза"/>
