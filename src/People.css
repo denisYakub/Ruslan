@@ -43,7 +43,8 @@
 }
 
 .Right-Card-Person-Info{
-    max-width: 500px;
+    max-width: fit-content;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
