@@ -1,0 +1,140 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+}
+
+.Preview-Imgs{
+    position: relative;
+    width: 500px; /* Укажи нужную ширину */
+    height: 500px; /* Укажи нужную высоту */
+    background-color: #3498db; /* Цвет фона */
+    border-radius: 15px; /* Закругление углов */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), 0 0 20px rgba(255, 255, 255, 0.6); /* Эффект света */
+}
+
+.Preview-Imgs img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.Preview-Imgs img:last-child {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Центрирование */
+    width: 80%; /* Размер наложенного фото */
+    height: auto;
+}
+
+.Preview-Info-Blocks {
+    position: relative;
+    margin-top: -40px;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Два столбца */
+    grid-template-rows: auto auto; /* Два ряда */
+    gap: 20px;
+    max-width: 900px;
+    grid-template-areas:
+        "blue1 violet1"
+        "blue2 violet2";
+}
+
+/* Назначаем блокам их места в сетке */
+.Preview-Info-Block-Blue:first-child {
+    grid-area: blue1;
+}
+
+.Preview-Info-Block-Blue:nth-child(2) {
+    grid-area: blue2;
+}
+
+.Preview-Info-Block-Violet:first-of-type {
+    grid-area: violet1;
+}
+
+.Preview-Info-Block-Violet:nth-of-type(2) {
+    grid-area: violet2;
+}
+
+/* Общие стили */
+.Preview-Info-Block-Blue,
+.Preview-Info-Block-Violet {
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+/* Заголовки */
+.Preview-Info-Block-Blue h1,
+.Preview-Info-Block-Violet h1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Preview-Info-Block-Blue h1 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(to bottom, #007bff, #74b9ff);
+}
+
+.Preview-Info-Block-Violet h1 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(to bottom, #8e44ad, #d980fa);
+}
+
+/* Текст */
+.Preview-Info-Block-Blue span,
+.Preview-Info-Block-Violet span {
+    padding: 10px;
+    text-align: left;
+    color: black;
+    font-size: 12px;
+}
+
+/* Алмазы */
+.Preview-Info-Block-Blue img {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 50px;
+    height: auto;
+}
+
+.Preview-Info-Block-Violet img{
+    transform: scaleX(-1);
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 50px;
+    height: auto;
+}
+
+.To-Next{
+    display: flex;
+    gap: 10px;
+    padding: 8px 15px;
+    border: none;
+    background: linear-gradient(to right, #FF8449, #D82FF9);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 50px;
+}
