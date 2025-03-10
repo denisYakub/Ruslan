@@ -22,7 +22,7 @@ export default function Head() {
                 <button onClick={redirectToGroup}>ВКонтакте</button>
             </div>
             <div className="Login-Button" onClick={redirectToPost}>
-                <img src="" alt="Фото перейти"/>
+                {/*<img src="" alt="Фото перейти"/>*/}
                 <span>Log in</span>
             </div>
         </div>

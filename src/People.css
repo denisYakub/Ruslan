@@ -11,28 +11,15 @@
 .Left-Card-Person,
 .Right-Card-Person {
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    gap: 2px;
+    padding: 20px;
 }
 
 .Left-Card-Person img,
 .Right-Card-Person img {
     max-width: 200px;
     max-height: 250px;
-    min-width: 200px;
-    min-height: 250px;
-    background: center/cover no-repeat #3f3f5f;
-    clip-path:  polygon(0% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%);
-    border-radius: 10px;
-}
-
-.Left-Card-Person img{
-    margin-left: 20px ;
-}
-
-.Right-Card-Person img {
-    margin-right: 20px ;
+    min-width: 150px;
+    min-height: 200px;
 }
 
 .Left-Card-Person-Info{

@@ -3,7 +3,7 @@ import "./People.css"
 export default function People() {
     return(<div className="People-Info">
         <div className="Left-Card-Person">
-            <img src="" alt="Фото человека Агата Харрис"/>
+            <img src="/AGATA.png" alt="Фото человека Агата Харрис"/>
             <div className="Left-Card-Person-Info">
                 <span>Агата Харрис</span>
                 <span>
@@ -18,10 +18,10 @@ export default function People() {
                     Он является протеже Фредерика и также наследником его бизнеса, живущий вместе с ним на протяжении месяца в особняке Аннет Сильвер-Харрис. Весьма неоднозначная личность.
                 </span>
             </div>
-            <img src="" alt="Фото человека Александр Нильсен"/>
+            <img src="/ALEKSANDR.png" alt="Фото человека Александр Нильсен"/>
         </div>
         <div className="Left-Card-Person">
-            <img src="" alt="Фото человека Сэм Макото"/>
+            <img src="/SEM.png" alt="Фото человека Сэм Макото"/>
             <div className="Left-Card-Person-Info">
                 <span>Сэм Макото</span>
                 <span>
@@ -36,10 +36,10 @@ export default function People() {
                     Девушка предстает заботливой и чуткой, когда Агата переживает трудное эмоциональное состояние после кончины близкой родственницы. Элиза студентка медицинского вуза
                 </span>
             </div>
-            <img src="" alt="Фото человека Элиза Харрис"/>
+            <img src="/ELIZA.png" alt="Фото человека Элиза Харрис"/>
         </div>
         <div className="Left-Card-Person">
-            <img src="" alt="Фото человека Рейчел Линд"/>
+            <img src="/REJChEL.png" alt="Фото человека Рейчел Линд"/>
             <div className="Left-Card-Person-Info">
                 <span>Рейчел Линд</span>
                 <span>
@@ -54,10 +54,10 @@ export default function People() {
                     Является детективом и имеет своего личного помощника. Дает Сэм странные напутствия, потому что считает себя профессионалом. Подозревает всех вокруг, не знает, как все это совместить.
                 </span>
             </div>
-            <img src="" alt="Фото человека Гилберт Гудман"/>
+            <img src="/GUDMAN.png" alt="Фото человека Гилберт Гудман"/>
         </div>
         <div className="Left-Card-Person">
-            <img src="" alt="Фото человека Данте Харрис"/>
+            <img src="/DANTE.png" alt="Фото человека Данте Харрис"/>
             <div className="Left-Card-Person-Info">
                 <span>Данте Харрис</span>
                 <span>
@@ -72,10 +72,10 @@ export default function People() {
                     Администратор в казино. В день, когда Эллиа в первый раз сделал себе дреды, семь девушек подкатили к нему независимо друг от друга. Он решил, что это знак, и с тех пор старается носить их как можно чаще и дольше.
                 </span>
             </div>
-            <img src="" alt="Фото человека Эллиа Ноябрь"/>
+            <img src="/ELLIA.png" alt="Фото человека Эллиа Ноябрь"/>
         </div>
         <div className="Left-Card-Person">
-            <img src="" alt="Фото человека Чарли Харрис"/>
+            <img src="/ChARLI.png" alt="Фото человека Чарли Харрис"/>
             <div className="Left-Card-Person-Info">
                 <span>Чарли Харрис</span>
                 <span>
@@ -90,10 +90,10 @@ export default function People() {
                     Девушка работает активной горничной в поместье Харрисов. Так же, является назойливой сплетницей, сующаяся и преуспевающая узнать о всех событиях в доме, где про её хобби всем известно. Может выдать все сплетни подчистую.
                 </span>
             </div>
-            <img src="" alt="Фото человека Марта Рэдбэк"/>
+            <img src="/MARTA.png" alt="Фото человека Марта Рэдбэк"/>
         </div>
         <div className="Left-Card-Person">
-            <img src="" alt="Фото человека Дилара Бостон"/>
+            <img src="/DILARA.png" alt="Фото человека Дилара Бостон"/>
             <div className="Left-Card-Person-Info">
                 <span>Дилара Бостон</span>
                 <span>
@@ -110,7 +110,7 @@ export default function People() {
                     Приехал из Норвегии вместе со своим протеже Александром, чтобы договорится насчёт бизнеса.
                 </span>
             </div>
-            <img src="" alt="Фото человека Фредерик Ларсен"/>
+            <img src="/FREDERIK.png" alt="Фото человека Фредерик Ларсен"/>
         </div>
     </div>);
 }

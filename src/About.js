@@ -29,9 +29,9 @@ export default function About(){
             </div>
         </div>
         <div className="To-Next">
-            <img src="" alt="Фото стрелка вниз"/>
+            {/*<img src="" alt="Фото стрелка вниз"/>*/}
             <span>Узнать больше</span>
-            <img src="" alt="Фото стрелка вниз"/>
+            {/*<img src="" alt="Фото стрелка вниз"/>*/}
         </div>
     </div>);
 }
